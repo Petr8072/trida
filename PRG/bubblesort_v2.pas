@@ -17,6 +17,6 @@ end;
    pole[j]:=pom;
  end;
  writeln;
- for i:=1 to n do write (pole[i],',');
+ for i:=1 to n do write (pole[i]:4:0);
  repeat until keypressed;
 end.
