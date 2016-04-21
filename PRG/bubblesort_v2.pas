@@ -2,7 +2,7 @@ program bubblesort_v2;
 uses Crt;
 const n=5;
 var i,j,pom : integer;
-pole : array [1..n] of integer;
+pole : array [1..n] of real;
 
 begin
 for i:=1 to n do begin
